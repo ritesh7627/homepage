@@ -57,9 +57,11 @@ html{
 #dice-no{
     font-size: 200px;
     color: white;
-    text-align: center;
     margin-top: 150px;
     text-shadow: 0px 0px 5px white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 #dice-btn{
     text-align: center;
@@ -74,7 +76,17 @@ html{
     text-shadow: 0px 0px 5px white;
     border-radius:20px;
     box-shadow: 0px 0px 5px white;
-    
+}
+#again{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 0px 0px 5px white;
+    position: relative;
+    top:-50px;
+    right:-100px;
+    margin: -34px;
+
 }
 #dice-btn :active{
     box-shadow: 0px 0px 20px rgb(0, 255, 106); 

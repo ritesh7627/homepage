@@ -5,8 +5,18 @@ burger.addEventListener('click', () => {
     navbar.classList.toggle('navbar-resp');
     para.classList.toggle('para-resp')
 })
-let x;
+let x=0;
+let y=0;
 document.getElementById("dice-roll").onclick = function(){
     x=Math.floor(Math.random()*6)+1;
-    document.getElementById("dice-no").innerHTML=x;
+    y=document.getElementById("dice-no").innerText
+    if(y==x)
+    {
+    document.getElementById("again").innerHTML="Again!!"; 
+    }
+    else{
+    document.getElementById("dice-no").innerHTML=x;   
+    document.getElementById("again").innerHTML=""; 
+    }
+    console.log(y);
 }
