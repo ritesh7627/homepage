@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* DESIGNING NAVIGATION BAR */
+.img img {
+    border-radius: 100%;
+    border: solid aqua;
+    width: 70px;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    box-shadow: 0px 0px 10px white;
+}
+.c-img{
+    width: 150px;
+    height: 150px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px white;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    font-family: 'Andika', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.title{
+    font-size: 35px;
+    text-align: center;
+}
+
+.img img:hover {
+    transform: rotateX(1turn);
+    border: solid greenyellow;
+    transition: all 0.5s ease-in-out;
+}
+#dice-no{
+    font-size: 200px;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    text-shadow: 0px 0px 5px white;
+}
+#dice-btn{
+    text-align: center;
+    
+}
+#dice-roll{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 255, 255, 0.704);
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 0px 0px 5px white;
+    border-radius:20px;
+    box-shadow: 0px 0px 5px white;
+    
+}
+#dice-btn :active{
+    box-shadow: 0px 0px 20px rgb(0, 255, 106); 
+}
+.navbar {
+    /* background: rgba(0, 0, 0, 0.321) url('img/nav.gif'); */
+    background-color: rgba(255, 255, 255, 0.422);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    backdrop-filter: blur(6px);
+    z-index: 3;
+
+}
+
+.burger {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 45px;
+    z-index: 2;
+}
+
+.line {
+    background-color: white;
+    border-radius: 100px;
+    width: 27px;
+    margin: 5px 3px;
+    padding: 3px;
+    box-shadow: 0px 0px 5px rgb(4, 4, 4);
+}
+
+.navbar ul {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 10vw;
+
+}
+
+.navbar ul a {
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
+
+}
+a{
+    text-decoration: none;
+}
+.container:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 5px 15px white;
+    transition: all 0.3s;
+    
+}
+
+.icons{
+margin-top:1rem;
+display: flex;
+justify-content:center;
+color: red;
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.995);
+gap:4rem;
+padding: 5px;
+border-radius: 10px;
+margin: 10px;
+}
+.icon{
+    border-radius: 10px;
+    width: 50px;  
+}
+.icon:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s;
+}
+.navbar ul a {
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+.navbar ul li:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.para {
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 0px 0px 5px white;
+
+}
+
+@media only screen and (max-width:800px) {
+.section{
+    flex-direction: column;
+    align-items: center;
+}
+    .phone-font {
+        margin: 5px;
+        font-size: 20px;
+    }
+    .container{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 30px;
+    }
+
+    .navbar ul {
+        transition: height 0.7s;
+        height: 120px;
+        padding: 5px;
+        gap: 2vw;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .navbar ul a {
+        font-size: 20px;
+    }
+
+    .navbar-resp ul {
+        opacity: 0;
+        height: 19px;
+        gap: 2vw;
+        flex-direction: column;
+        transition: height 1s;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .para {
+        transition: all 0.7s;
+        padding-top: 200px;
+        text-align: center;
+    }
+
+    .para-resp {
+        transition: all 1s;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+}
