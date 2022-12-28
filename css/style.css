@@ -8,7 +8,7 @@ html{
 }
 body{
 /* background:linear-gradient(to right top ,#65dfc9,#6cdaeb); */
-background:rgba(0, 0, 0, 0.482) url('/planet.jpg');
+background:rgba(0, 0, 0, 0.482) url('../planet.jpg');
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
