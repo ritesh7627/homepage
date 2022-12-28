@@ -4,7 +4,16 @@
     margin: 0;
 }
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
+}
+body{
+/* background:linear-gradient(to right top ,#65dfc9,#6cdaeb); */
+background:rgba(0, 0, 0, 0.482) url('/planet.jpg');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-blend-mode:darken;
 }
 /* DESIGNING NAVIGATION BAR */
 .img img {
@@ -23,36 +32,35 @@ html{
     border-radius: 25px;
     box-shadow: 0px 0px 10px white;
 }
+
 .section{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap: wrap;
 
 }
 .container{
-    display: flex;
+    display:flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: auto;
     width: 200px;
     border-radius: 20px;
     padding: 10px;
     margin: 20px;
     color: white;
-    box-shadow: 0px 0px 10px white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.482);
     font-family: 'Andika', sans-serif;
     font-weight: 600;
     font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.099);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(6px);
 }
 .title{
     font-size: 35px;
     text-align: center;
-}
-
-.img img:hover {
-    transform: rotateX(1turn);
-    border: solid greenyellow;
-    transition: all 0.5s ease-in-out;
 }
 #dice-no{
     font-size: 200px;
@@ -97,8 +105,9 @@ html{
     position: fixed;
     top: 0;
     padding: 15px;
-    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    box-shadow: 0px 0px 30px rgb(0, 0, 0);
     backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     z-index: 3;
 
 }
@@ -151,17 +160,27 @@ a{
 margin-top:1rem;
 display: flex;
 justify-content:center;
-color: red;
-background-color: rgb(255, 255, 255);
-box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.995);
+background-color: rgba(255, 255, 255, 0.497);
+box-shadow: 0px 0px 10px rgba(204, 145, 218, 0.995);
 gap:4rem;
 padding: 5px;
 border-radius: 10px;
 margin: 10px;
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+align-items: center;
+
 }
+
 .icon{
     border-radius: 10px;
     width: 50px;  
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.995);
+    background-color: white;
+    margin: 1px;
+}
+.insta{
+    border-radius: 100px;
 }
 .icon:hover {
     transform: scale(1.1, 1.1);
@@ -182,6 +201,7 @@ margin: 10px;
     font-size: 30px;
     font-family: monospace;
     text-shadow: 0px 0px 5px white;
+    user-select: none;
 
 }
 
