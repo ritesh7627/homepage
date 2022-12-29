@@ -40,6 +40,14 @@
     </div>
     
 
-    <script src="./js/script.js"></script>
+    <script>
+        burger = document.querySelector('.burger')
+navbar = document.querySelector('.navbar-resp')
+para = document.querySelector('.para-resp')
+burger.addEventListener('click', () => {
+    navbar.classList.toggle('navbar-resp');
+    para.classList.toggle('para-resp')
+})
+    </script>
 </body>
 </html>

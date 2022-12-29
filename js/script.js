@@ -1,3 +1,5 @@
+var bgmusic = document.getElementById("bgmusic");
+bgmusic.volume = 0.080;
 burger = document.querySelector('.burger')
 navbar = document.querySelector('.navbar-resp')
 para = document.querySelector('.para-resp')
@@ -20,5 +22,3 @@ document.getElementById("dice-roll").onclick = function(){
     }
     console.log(y);   
 }
-var bgmusic = document.getElementById("bgmusic");
-bgmusic.volume = 0.1;
