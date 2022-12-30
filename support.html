@@ -6,24 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="foodhub.css">
     <title>NoobCoder</title>
 </head>
 
-<body bgcolor="black">
+<body>
     <header>
-       
+
         <nav class="navbar navbar-resp">
             <div class="img">
-                <img src="logo.jpg">  
-                  
+                <img src="logo.jpg">
+
             </div>
             <ul>
-               
+
                 <li><a href="index.html">Home</a> </li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">File</a></li>
                 <li><a href="#">Support</a></li>
-           
+
             </ul>
             <div class="burger">
                 <div class="line"></div>
@@ -34,20 +35,59 @@
     </header>
     <div class="para para-resp phone-font">
         “Admin Himself Needs Support.”<br>
-       <span style="text-align: center"> – Ritesh</span>
-       😭
-        
+        <span style="text-align: center"> – Ritesh</span>
+        😭<br><br>
+        ------------------------------<br>
+                    Our Sponsers<br>
+                    ------------------------------
     </div>
-    
+    </div>
+    <div class="container-foodhub">Food
+        <div id="inner">HUB</div>
+        <div class="items">
+            <ul>
+                <li>MOMO</li>
+                <li>PIZZA </li>
+                <li>BURGER </li>
+                <li>SAMOSA </li>
+                <li>DOSA </li>
+                <li>IDLI </li>
+                <li>PASTA </li>
+                <li>MAGGIE </li>
+                <li>CHOWMEIN </li>
+                <li>CHILLI </li>
+                <li>SANGHAI </li>
+
+            </ul>
+            <div class="price">
+
+
+                <ul>
+                    <li>₹60</li>
+                    <li>₹60 </li>
+                    <li>₹60 </li>
+                    <li>₹60</li>
+                    <li>₹60 </li>
+                    <li>₹60 </li>
+                    <li>₹60 </li>
+                    <li>₹60</li>
+                    <li>₹60 </li>
+                    <li>₹60</li>
+                    <li>₹60 </li>
+                </ul>
+            </div>
+
+
 
     <script>
         burger = document.querySelector('.burger')
-navbar = document.querySelector('.navbar-resp')
-para = document.querySelector('.para-resp')
-burger.addEventListener('click', () => {
-    navbar.classList.toggle('navbar-resp');
-    para.classList.toggle('para-resp')
-})
+        navbar = document.querySelector('.navbar-resp')
+        para = document.querySelector('.para-resp')
+        burger.addEventListener('click', () => {
+            navbar.classList.toggle('navbar-resp');
+            para.classList.toggle('para-resp')
+        })
     </script>
 </body>
+
 </html>

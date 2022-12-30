@@ -1,0 +1,68 @@
+.container-foodhub{
+    width: 120px;
+    border-radius: 8px;
+    padding: 9px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    font-family: 'Andika', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    justify-content: center;
+    text-align: left;
+    right: 200px;
+    left: auto;
+    height:30px;
+    transition: all 2s;
+    user-select: none;
+    background-color: black;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.container-foodhub:hover{
+    top:200px;
+    height:200px;
+    transform: scale(2);
+    transition: 2s;
+    box-shadow: 0px 0px 60px rgb(255, 255, 255);
+}
+#inner{
+    border-radius: 5px;
+    width: 60px;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    position: relative;
+    left: 60px;
+    top:-43px;
+    text-align: center;
+    height: 35px;;
+
+}
+
+
+.items{
+   display: flex;
+   position: relative;
+   right:-20px;
+   font-size: 8px;
+   top: -30px;
+   z-index: -1;
+}
+.container-foodhub ul li{
+    position: relative;
+    top: -40px;
+    opacity: 0;
+    transition: 1.6s;
+    height: 0px;
+}
+.container-foodhub:hover ul li{
+   top:0px;
+   opacity: 1;
+   transition: 2s;
+   height: 14px;
+}
+.price ul li{
+list-style: none;   
+margin-right:500px ;
+right: -20px;
+    }
