@@ -1,5 +1,3 @@
-var bgmusic = document.getElementById("bgmusic");
-bgmusic.volume = 0.03;
 burger = document.querySelector('.burger')
 navbar = document.querySelector('.navbar-resp')
 para = document.querySelector('.para-resp')

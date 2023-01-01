@@ -217,10 +217,20 @@ align-items: center;
     user-select: none;
 
 }
+.gmail{
+    border-radius: 3px;
+}
 
 @media only screen and (max-width:800px) {
+
+    .c-img{
+        width: 75px;
+        height: 75px;
+        margin: 0px 10px 0px 10px;
+        padding: 5px;
+    }
 .section{
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
     .phone-font {
@@ -228,10 +238,13 @@ align-items: center;
         font-size: 20px;
     }
     .container{
-        font-size: 20px;
+        width: 100px;
+        height: 100px;
+
     }
     .title{
-        font-size: 30px;
+        margin-top: -10px;
+        font-size: 16px;
     }
 
     .navbar ul {
