@@ -1,4 +1,4 @@
-.container-foodhub{
+.container-foodhub {
     display: block;
     width: 120px;
     border-radius: 8px;
@@ -12,7 +12,7 @@
     text-align: left;
     left: -40px;
     top: -5px;
-    height:30px;
+    height: 30px;
     transition: all 0.5s;
     user-select: none;
     background-color: black;
@@ -21,53 +21,66 @@
     overflow: hidden;
     position: relative;
 }
-.container-foodhub:hover{
-    height:200px;
+
+.container-foodhub:hover {
+    height: 200px;
     transform: scale(1.1);
     transition: 0.5s;
     box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
-#inner{
+
+#inner {
     border-radius: 5px;
     width: 60px;
     background-color: orange;
     color: rgb(0, 0, 0);
     position: relative;
     left: 60px;
-    top:-38px;
+    top: -38px;
     text-align: center;
-    height: 35px;;
+    height: 35px;
+    ;
     padding-bottom: 2px;
 
 }
-#upper{
-    margin-top:-6px;
+
+#upper {
+    margin-top: -6px;
 }
 
 
-.items{
-   display: flex;
-   position: relative;
-   right:-20px;
-   font-size: 8px;
-   top: -30px;
-   z-index: -1;
+.items {
+    display: flex;
+    position: relative;
+    right: -20px;
+    font-size: 8px;
+    top: -30px;
+    z-index: -1;
 }
-.container-foodhub ul li{
+
+.container-foodhub ul li {
     position: relative;
     top: -40px;
     opacity: 0;
     transition: 0.5s;
     height: 0px;
 }
-.container-foodhub:hover ul li{
-   top:0px;
-   opacity: 1;
-   transition: 0.5s;
-   height: 14px;
+
+.container-foodhub:hover ul li {
+    top: 0px;
+    opacity: 1;
+    transition: 0.5s;
+    height: 14px;
 }
-.price ul li{
-list-style: none;   
-margin-right:500px ;
-right: -20px;
+
+.price ul li {
+    list-style: none;
+    margin-right: 500px;
+    right: -20px;
+}
+
+@media only screen and (max-width:800px) {
+    .container-foodhub {
+        left: -15px;
     }
+}
