@@ -247,7 +247,7 @@ a {
     flex-direction: row;
     justify-content: left;
     align-items: left;
-    width: 400px;
+    width: 300px;
     border-radius: 20px;
     padding: 10px;
     color: white;
@@ -259,26 +259,37 @@ a {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(6px);
     margin: 10px;
+    
+   
+}
+#bgmi{
+    width: 150px;
+    border-radius: 4px;
 }
 
 .css-title {
     color: white;
-    font-size: 20px;
-    text-align: center;
+    font-size: 15px;
     position: relative;
-    right: 50px;
+    right: 10px;
     top: -10px;
+}
+.bgmi-title{
+    left: 40px;
 }
 
 .css-btn {
     position: absolute;
-    left: 200px;
+    left: 180px;
     top: 25px;
 }
 
 .c-btn {
+    position: absolute;
+    width: 120px;
+    top:22px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 10px;
     padding: 5px;
 }
 
@@ -289,38 +300,14 @@ a {
 .c-btn:active {
     box-shadow: 0px 3px 10px black;
 }
-
-@media only screen and (max-width:800px) {
-    .css-container {
-        width: 300px;
-    }
-
-    .css-title {
-        color: white;
-        font-size: 15px;
-        position: relative;
-        right: 10px;
-        top: -10px;
-    }
-
-    .css-btn {
-        position: absolute;
-        left: 180px;
-        top: 25px;
-    }
-
-    .c-btn {
-        border-radius: 5px;
-        font-size: 10px;
-        padding: 5px;
-    }
-
-    .c-img {
+  .c-img {
         width: 75px;
         height: 75px;
         margin: 0px 10px 0px 10px;
         padding: 5px;
     }
+@media only screen and (max-width:800px) {
+   
 
     .section {
         flex-direction: row;

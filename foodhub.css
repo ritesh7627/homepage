@@ -79,8 +79,6 @@
     right: -20px;
 }
 
-@media only screen and (max-width:800px) {
     .container-foodhub {
         left: -15px;
     }
-}
