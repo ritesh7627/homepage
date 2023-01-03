@@ -235,7 +235,16 @@ a {
     font-family: monospace;
     text-shadow: 0px 0px 5px white;
     user-select: none;
-
+}
+.para-css{
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    text-shadow: 0px 0px 5px white;
+    user-select: none;
+    margin: 5px;
 }
 
 .gmail {

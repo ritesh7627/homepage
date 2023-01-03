@@ -1,0 +1,82 @@
+.feed-con{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.564);
+    height: 20px;
+    width:88px;
+    transition: all 1s;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+.feed-con:hover{
+    height: 200px;
+    width:300px;
+    transition: all 1s;
+}
+.feed-txt{
+    margin-top: 5px;
+}
+.feed-btn{
+  color: azure;
+  background: linear-gradient(45deg,rgb(140, 140, 255),rgb(255, 0, 255));  
+  font-weight: 400;
+  padding: 5px 10px 20px 10px;
+}
+.submit{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0px;
+    left:-80px;
+    opacity: 0;
+    transition: all 1s;
+}
+.txtname{
+   position: relative;
+   margin-top: 2px;
+   top: 0px;
+   left:0;
+   height:0px;
+   width:0px;
+   opacity: 0;
+   transition: all 1s;
+}
+.txtarea{
+    position: relative;
+    margin-top: 2px;
+    top: 0px;
+    left:0;
+    height:0px;
+    width:0px;
+    opacity: 0;
+    transition: all 1s;
+ }
+ .feed-con:hover .txtname{
+    top:0px;
+    left:30px;
+    width: 150px;
+    height: 20px;
+    opacity: 1;
+    transition: all 1s;
+}
+.feed-con:hover .txtarea{
+    position: relative;
+    top:10px;
+    left:30px;
+    height: 110px;
+    width: 150px;
+    transition: all 1s;
+    opacity: 1;
+}
+.feed-con:hover .submit{
+    top: 170px;
+    left: -70px;
+    opacity: 1;
+    transition: all 1s;
+}
+.feedback{
+    overflow: hidden;
+}
+.f-btn{
+    top:-15px
+}
